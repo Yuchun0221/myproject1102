@@ -21,12 +21,15 @@ public class Student {
         math=-1;*/
     }
     public void print(){
-        int average=(english+math)/2;
+        int average=getAverage();
         System.out.print(name+"\t"+english+"\t"+math+"\t"+average);
         if(average<60){
             System.out.print("*");
         }
         System.out.println();
+    }
+    public int getAverage(){
+        return((english+math)/2);
     }
 
 }

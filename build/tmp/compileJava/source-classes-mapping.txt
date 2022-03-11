@@ -2,9 +2,9 @@ com/yu/ScoringNG.java
  com.yu.ScoringNG
 com/yu/hello.java
  com.yu.hello
+com/yu/Scoring.java
+ com.yu.Scoring
 com/yu/Student.java
  com.yu.Student
 com/yu/GraduateStudent.java
  com.yu.GraduateStudent
-com/yu/Scoring.java
- com.yu.Scoring
