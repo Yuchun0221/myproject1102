@@ -7,9 +7,11 @@ public class Scoring {
         jack.english=70;
         jack.math=88;*/
         Student hank=new Student("Hank",60,80);
-        Student s=new Student();
+        GraduateStudent jane=new GraduateStudent("Jane",80,70,90);
+        jane.name="Jane";
         jack.print();
         hank.print();
-        s.print();
+        jane.print();
+
     }
 }

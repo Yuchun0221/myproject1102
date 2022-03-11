@@ -1,6 +1,7 @@
 package com.yu;
 
 public class Student {
+    public Student jack;
     String name;
     int english;
     int math;
