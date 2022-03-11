@@ -1,0 +1,8 @@
+com/yu/ScoringNG.java
+ com.yu.ScoringNG
+com/yu/Scoring.java
+ com.yu.Scoring
+com/yu/hello.java
+ com.yu.hello
+com/yu/Student.java
+ com.yu.Student
