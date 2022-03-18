@@ -12,9 +12,11 @@ com/yu/Customer.java
  com.yu.Customer
 com/yu/Purchase.java
  com.yu.Purchase
-com/yu/Customer1.java
- com.yu.Customer1
 com/yu/SalesTester1.java
  com.yu.SalesTester1
+com/yu/GoldenCustomer1.java
+ com.yu.GoldenCustomer1
 com/yu/SilverCustomer1.java
  com.yu.SilverCustomer1
+com/yu/Customer1.java
+ com.yu.Customer1
