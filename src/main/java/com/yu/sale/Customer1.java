@@ -1,4 +1,4 @@
-package com.yu;
+package com.yu.sale;
 
 public class Customer1 {
     String id;

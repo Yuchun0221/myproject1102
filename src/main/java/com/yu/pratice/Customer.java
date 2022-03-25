@@ -1,4 +1,4 @@
-package com.yu;
+package com.yu.pratice;
 
 public class Customer {
     String name;

@@ -1,4 +1,4 @@
-package com.yu;
+package com.yu.sale;
 
 public class SalesTester1 {
     public static void main(String[] args) {

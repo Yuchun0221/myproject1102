@@ -1,6 +1,8 @@
-package com.yu;
+package com.yu.sale;
 
-public class SilverCustomer1 extends Customer1{
+import com.yu.sale.Customer1;
+
+public class SilverCustomer1 extends Customer1 {
     public SilverCustomer1(String id, int amount) {
         super(id, amount);
     }

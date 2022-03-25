@@ -1,4 +1,6 @@
-package com.yu;
+package com.yu.pratice;
+
+import com.yu.pratice.Customer;
 
 public class Purchase {
     public static void main(String[] args) {
