@@ -1,22 +1,28 @@
-com/yu/ScoringNG.java
- com.yu.ScoringNG
-com/yu/Scoring.java
- com.yu.Scoring
-com/yu/GraduateStudent.java
- com.yu.GraduateStudent
+com/yu/sale/SalesTester1.java
+ com.yu.sale.SalesTester1
+com/yu/ticket1/Ticket.java
+ com.yu.ticket1.Ticket
 com/yu/hello.java
  com.yu.hello
-com/yu/Student.java
- com.yu.Student
-com/yu/Customer.java
- com.yu.Customer
-com/yu/Purchase.java
- com.yu.Purchase
-com/yu/SalesTester1.java
- com.yu.SalesTester1
-com/yu/GoldenCustomer1.java
- com.yu.GoldenCustomer1
-com/yu/SilverCustomer1.java
- com.yu.SilverCustomer1
-com/yu/Customer1.java
- com.yu.Customer1
+com/yu/pratice/Customer.java
+ com.yu.pratice.Customer
+com/yu/pratice/Purchase.java
+ com.yu.pratice.Purchase
+com/yu/score/Scoring.java
+ com.yu.score.Scoring
+com/yu/sale/Customer1.java
+ com.yu.sale.Customer1
+com/yu/sale/GoldenCustomer1.java
+ com.yu.sale.GoldenCustomer1
+com/yu/score/Student.java
+ com.yu.score.Student
+com/yu/score/ScoringNG.java
+ com.yu.score.ScoringNG
+com/yu/ticket1/Station.java
+ com.yu.ticket1.Station
+com/yu/sale/SilverCustomer1.java
+ com.yu.sale.SilverCustomer1
+com/yu/score/GraduateStudent.java
+ com.yu.score.GraduateStudent
+com/yu/ticket1/Tester.java
+ com.yu.ticket1.Tester

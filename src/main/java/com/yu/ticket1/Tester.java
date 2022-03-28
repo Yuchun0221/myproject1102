@@ -37,6 +37,8 @@ public class Tester {
                 endStation = Station.KAOHSIUNG_STATION;
                 break;
         }
+        System.out.println("How many tickets do you need?");
+        int n=Integer.parseInt(scanner.next());
         if(startchoice+endchoice==3){
             total+=600;
         }if(startchoice+endchoice==5){
@@ -45,6 +47,6 @@ public class Tester {
             total+=1500;
         }
         System.out.println("your ticket is from"+"\t"+startStation.name+"\t"+"to"+"\t"+endStation.name);
-        System.out.println("Total:"+total);
+        System.out.println("Total:"+total*n);
     }
 }
