@@ -4,6 +4,7 @@ public class Customer1 {
     String id;
     int amount;
     float off=0.1f;
+    float Pback=0.2f;
     public Customer1(String id,int amount){
         this.id=id;
         this.amount=amount;
