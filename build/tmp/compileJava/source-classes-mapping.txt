@@ -1,5 +1,5 @@
-com/yu/sale/SalesTester1.java
- com.yu.sale.SalesTester1
+com/yu/ticket1/Tester.java
+ com.yu.ticket1.Tester
 com/yu/score/GraduateStudent.java
  com.yu.score.GraduateStudent
 com/yu/sale/SilverCustomer1.java
@@ -32,5 +32,7 @@ com/yu/ticket1/StudentTicket.java
  com.yu.ticket1.StudentTicket
 com/yu/ticket1/ElderTicket.java
  com.yu.ticket1.ElderTicket
-com/yu/ticket1/Tester.java
- com.yu.ticket1.Tester
+com/yu/sale/SalesTester1.java
+ com.yu.sale.SalesTester1
+com/yu/ArrayList.java
+ com.yu.ArrayList
