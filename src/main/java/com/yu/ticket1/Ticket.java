@@ -7,21 +7,22 @@ public class Ticket {
 
     Station start;
     Station end;
-    float off=0.1f;
+    float off = 0.1f;
     int price;
-    public Ticket(Station start,Station end) {
+
+    public Ticket(Station start, Station end) {
         this.start = start;
         this.end = end;
-        int add=(start.id+end.id);
-        switch(add){
+        int add = (start.id + end.id);
+        switch (add) {
             case 300:
-                price=500;
+                price = 500;
                 break;
             case 400:
-                price=1500;
+                price = 1500;
                 break;
             case 500:
-                price=900;
+                price = 900;
                 break;
         }
 /*        if (start == Station.TAIPEI_STATION) {
@@ -48,5 +49,6 @@ public class Ticket {
     }public void print(){
         System.out.println(start.name+"\t"+end.name+"\t"+price);
     }*/
+    }
 }
 
