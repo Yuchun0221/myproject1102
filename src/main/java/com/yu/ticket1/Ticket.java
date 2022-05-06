@@ -45,10 +45,10 @@ public class Ticket {
             } else {
                 price = 1500;
             }
-        }
+        }*/
     }public void print(){
         System.out.println(start.name+"\t"+end.name+"\t"+price);
-    }*/
     }
 }
+
 
