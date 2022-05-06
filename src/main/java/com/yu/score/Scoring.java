@@ -10,7 +10,7 @@ public class Scoring {
         /*jack.name="Jack";
         jack.english=70;
         jack.math=88;*/
-        students.add(new Student("Hank",60,80));
+        students.add(new Student("Hank",60,59));
         students.add(new GraduateStudent("Jane",80,70,90));
         for(Student s:students){
             s.print();

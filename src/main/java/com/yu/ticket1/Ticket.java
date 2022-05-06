@@ -1,9 +1,9 @@
 package com.yu.ticket1;
 
 public class Ticket {
-    public static final int TAIPEI_STATION=100;
+/*    public static final int TAIPEI_STATION=100;
     public static final int TAICHUNG_STATION=200;
-    public static final int KAOHSIUNG_STATION=300;
+    public static final int KAOHSIUNG_STATION=300;*/
 
     Station start;
     Station end;
@@ -12,7 +12,11 @@ public class Ticket {
     public Ticket(Station start,Station end) {
         this.start = start;
         this.end = end;
-        if (start == Station.TAIPEI_STATION) {
+        int add=(start.id+end.id);
+        switch(add){
+            case 300:
+        }
+/*        if (start == Station.TAIPEI_STATION) {
             if (end == Station.TAICHUNG_STATION) {
                 price = 600;
             } else {
@@ -35,6 +39,6 @@ public class Ticket {
         }
     }public void print(){
         System.out.println(start.name+"\t"+end.name+"\t"+price);
-    }
+    }*/
 }
 

@@ -1,6 +1,6 @@
 package com.yu.score;
 
-public class Student {
+public class Student implements Printable{
     public Student jack;
     String name;
     int english;
