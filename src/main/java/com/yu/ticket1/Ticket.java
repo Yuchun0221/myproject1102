@@ -15,6 +15,14 @@ public class Ticket {
         int add=(start.id+end.id);
         switch(add){
             case 300:
+                price=500;
+                break;
+            case 400:
+                price=1500;
+                break;
+            case 500:
+                price=900;
+                break;
         }
 /*        if (start == Station.TAIPEI_STATION) {
             if (end == Station.TAICHUNG_STATION) {
