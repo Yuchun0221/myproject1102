@@ -24,13 +24,15 @@ public class Runner {
 //            System.out.println(existDate.getTime());
             int mins=(int)(existDate.getTime()-enterDate.getTime())/1000/60;
             System.out.println(mins);
-            int fee=0;
-            if (mins%60<0.25){
+            float fee=0f;
+            System.out.println(mins%60);
+            if ((mins%60)<15){
                 fee=30*(mins/60);
-            }if(0.25<=mins%60&&mins<0.5){
-                fee=30*(mins/60+1/2);
             }
-            else {
+            if((mins%60)<30 ){
+                fee= (float) (30*(mins/60+0.5));
+            }
+            else{
                 fee=30*(mins/60+1);
             }
             System.out.println("Fee"+fee);
