@@ -2,7 +2,7 @@ package com.yu.score;
 
 public class Student implements Printable{
     public Student jack;
-    String name;
+    public String name;
     int english;
     int math;
     public Student(String name){
