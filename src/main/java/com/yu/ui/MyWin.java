@@ -1,6 +1,9 @@
 package com.yu.ui;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MyWin {
     public static void main(String[] args) {
@@ -9,6 +12,15 @@ public class MyWin {
         frame.setLocation(300,200);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         JButton button=new JButton("OK");
+//      MyActionListener listener=new MyActionListener();
+//      button.addActionListener(listener);
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("HI");
+            }
+        });
+        frame.setLayout(new FlowLayout());
         frame.add(button);
         frame.setVisible(true);
         System.out.println("End?");
