@@ -1,13 +1,19 @@
 package com.yu.ui;
 
+import org.w3c.dom.ls.LSOutput;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Random;
 
 public class GuessFrame extends JFrame {
-    JButton  button=new JButton("Hi");
+    JButton  button=new JButton("guess");
     JLabel label=new JLabel("hahaha");
+    JTextField number=new JTextField(8);
+    Random random = new Random();
+    int secert = random.nextInt(10)+1;
     public GuessFrame(){
         super();
         setSize(600,400);
@@ -16,16 +22,25 @@ public class GuessFrame extends JFrame {
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("print");
-                label.setText("Hello");
+                int num = Integer.parseInt(number.getText());
+                if(num>secert){
+                    label.setText("Smaller");
+                }if(num<secert){
+                    label.setText("bigger");
+                }if(num==secert){
+                    label.setText("bingo");
+                }
+
+//                label.setText("Hello");
             }
         });
 
         setLayout(new FlowLayout());
+        add(number);
         add(button);
         add(label);
         setVisible(true);
-
+        System.out.println(secert);
     }
 
 
