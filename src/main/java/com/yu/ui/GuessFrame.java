@@ -13,8 +13,9 @@ public class GuessFrame extends JFrame {
     JLabel label1=new JLabel("please enter number");
     JLabel label=new JLabel("lets try");
     JTextField number=new JTextField(8);
-    Random random = new Random();
-    int secert = random.nextInt(10)+1;
+//    Random random = new Random();
+//   int secert = random.nextInt(10)+1;
+    int secert=new Random().nextInt(10)+1;
     public GuessFrame(){
         super();
         setSize(600,400);
