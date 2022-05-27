@@ -10,7 +10,8 @@ import java.util.Random;
 
 public class GuessFrame extends JFrame {
     JButton  button=new JButton("guess");
-    JLabel label=new JLabel("hahaha");
+    JLabel label1=new JLabel("please enter number");
+    JLabel label=new JLabel("lets try");
     JTextField number=new JTextField(8);
     Random random = new Random();
     int secert = random.nextInt(10)+1;
@@ -36,6 +37,7 @@ public class GuessFrame extends JFrame {
         });
 
         setLayout(new FlowLayout());
+        add(label1);
         add(number);
         add(button);
         add(label);
