@@ -62,3 +62,6 @@ com/yu/uipratice/WinPratice.java
 com/yu/ui/GuessFrame.java
  com.yu.ui.GuessFrame
  com.yu.ui.GuessFrame$1
+com/yu/ui/GuessFrame1To100.java
+ com.yu.ui.GuessFrame1To100
+ com.yu.ui.GuessFrame1To100$1
