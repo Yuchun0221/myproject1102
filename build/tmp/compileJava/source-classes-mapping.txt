@@ -10,6 +10,9 @@ com/yu/sale/Customer1.java
  com.yu.sale.Customer1
 com/yu/ticket1/ElderTicket.java
  com.yu.ticket1.ElderTicket
+com/yu/ui/GuessFrame1To100.java
+ com.yu.ui.GuessFrame1To100
+ com.yu.ui.GuessFrame1To100$1
 com/yu/sale/GoldenCustomer1.java
  com.yu.sale.GoldenCustomer1
 com/yu/ui/MyWin.java
@@ -27,6 +30,8 @@ com/yu/sale/SalesTester1.java
  com.yu.sale.SalesTester1
 com/yu/ticket1/StudentTicket.java
  com.yu.ticket1.StudentTicket
+com/yu/uipratice/PraticeActionListener.java
+ com.yu.uipratice.PraticeActionListener
 com/yu/PublicTest.java
  com.yu.PublicTest
 com/yu/sale/MyClass.java
@@ -53,15 +58,13 @@ com/yu/sale/MyInterface.java
  com.yu.sale.MyInterface
 com/yu/score/GraduateStudent.java
  com.yu.score.GraduateStudent
-com/yu/uipratice/PraticeActionListener.java
- com.yu.uipratice.PraticeActionListener
+com/yu/ui/GuessFrame.java
+ com.yu.ui.GuessFrame
+ com.yu.ui.GuessFrame$1
 com/yu/uipratice/WinPratice.java
  com.yu.uipratice.WinPratice
  com.yu.uipratice.WinPratice$1
  com.yu.uipratice.WinPratice$2
-com/yu/ui/GuessFrame.java
- com.yu.ui.GuessFrame
- com.yu.ui.GuessFrame$1
-com/yu/ui/GuessFrame1To100.java
- com.yu.ui.GuessFrame1To100
- com.yu.ui.GuessFrame1To100$1
+com/yu/ui/BmiTest.java
+ com.yu.ui.BmiTest
+ com.yu.ui.BmiTest$1
