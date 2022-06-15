@@ -11,6 +11,7 @@ public class BmiTest extends JFrame {
     JTextField number = new JTextField(5);
     JTextField number1 = new JTextField(5);
     JLabel label1 = new JLabel("please enter your height(m)");
+    JLabel label2 = new JLabel("result");
     public BmiTest(){
         super();
         setSize(600,400);
@@ -21,7 +22,7 @@ public class BmiTest extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 int w = Integer.parseInt(number.getText());
                 int h = Integer.parseInt(number1.getText());
-                System.out.println("your bmi is"+w/(h*h));
+                label2.setText("your bmi is"+w/(h*h));
                 }
         });
         setLayout(new FlowLayout());
