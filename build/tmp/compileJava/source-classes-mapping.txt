@@ -69,8 +69,8 @@ com/yu/sale/MyInterface.java
  com.yu.sale.MyInterface
 com/yu/score/GraduateStudent.java
  com.yu.score.GraduateStudent
-com/yu/order/Order.java
- com.yu.order.Order
+com/yu/uipratice/PraticeActionListener.java
+ com.yu.uipratice.PraticeActionListener
 com/yu/ui/GuessFrame.java
  com.yu.ui.GuessFrame
  com.yu.ui.GuessFrame$1
@@ -78,7 +78,9 @@ com/yu/uipratice/WinPratice.java
  com.yu.uipratice.WinPratice
  com.yu.uipratice.WinPratice$1
  com.yu.uipratice.WinPratice$2
-com/yu/uipratice/PraticeActionListener.java
- com.yu.uipratice.PraticeActionListener
+com/yu/order/Order.java
+ com.yu.order.Order
 com/yu/order/OrderRunner.java
  com.yu.order.OrderRunner
+com/yu/score/ScoringFile.java
+ com.yu.score.ScoringFile
