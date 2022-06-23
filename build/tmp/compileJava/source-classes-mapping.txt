@@ -5,8 +5,8 @@ com/yu/ui/GuessFrame.java
  com.yu.ui.GuessFrame$1
 com/yu/pratice/Purchase.java
  com.yu.pratice.Purchase
-com/yu/ui/MyActionListener.java
- com.yu.ui.MyActionListener
+com/yu/parking/ParkingTester.java
+ com.yu.parking.ParkingTester
 com/yu/score/Scoring.java
  com.yu.score.Scoring
 com/yu/sale/Customer1.java
@@ -38,8 +38,8 @@ com/yu/ticket1/StudentTicket.java
 com/yu/ui/BmiTest.java
  com.yu.ui.BmiTest
  com.yu.ui.BmiTest$1
-com/yu/uipratice/PraticeActionListener.java
- com.yu.uipratice.PraticeActionListener
+com/yu/ui/MyActionListener.java
+ com.yu.ui.MyActionListener
 com/yu/score/GraduateStudent.java
  com.yu.score.GraduateStudent
 com/yu/PublicTest.java

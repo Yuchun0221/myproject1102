@@ -26,6 +26,7 @@ public class WinPratice {
                 System.out.println("Hi");
             }
         });
+
         frame.setLayout(new FlowLayout());
         frame.add(button);
         frame.setVisible(true);
