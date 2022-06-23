@@ -1,7 +1,8 @@
 com/yu/hello.java
  com.yu.hello
-com/yu/order/Delivery.java
- com.yu.order.Delivery
+com/yu/ui/GuessFrame.java
+ com.yu.ui.GuessFrame
+ com.yu.ui.GuessFrame$1
 com/yu/pratice/Purchase.java
  com.yu.pratice.Purchase
 com/yu/ui/MyActionListener.java
@@ -12,8 +13,8 @@ com/yu/sale/Customer1.java
  com.yu.sale.Customer1
 com/yu/ticket1/ElderTicket.java
  com.yu.ticket1.ElderTicket
-com/yu/order/HiLifeDelivery.java
- com.yu.order.HiLifeDelivery
+com/yu/score/ScoringFile.java
+ com.yu.score.ScoringFile
 com/yu/ui/GuessFrame1To100.java
  com.yu.ui.GuessFrame1To100
  com.yu.ui.GuessFrame1To100$1
@@ -37,10 +38,10 @@ com/yu/ticket1/StudentTicket.java
 com/yu/ui/BmiTest.java
  com.yu.ui.BmiTest
  com.yu.ui.BmiTest$1
-com/yu/order/Seven11Delivery.java
- com.yu.order.Seven11Delivery
-com/yu/order/ShopeeDelivery.java
- com.yu.order.ShopeeDelivery
+com/yu/uipratice/PraticeActionListener.java
+ com.yu.uipratice.PraticeActionListener
+com/yu/score/GraduateStudent.java
+ com.yu.score.GraduateStudent
 com/yu/PublicTest.java
  com.yu.PublicTest
 com/yu/sale/MyClass.java
@@ -63,24 +64,23 @@ com/yu/score/ScoringNG.java
  com.yu.score.ScoringNG
 com/yu/ticket1/Station.java
  com.yu.ticket1.Station
-com/yu/order/FamilyDelivery.java
- com.yu.order.FamilyDelivery
-com/yu/sale/MyInterface.java
- com.yu.sale.MyInterface
-com/yu/score/GraduateStudent.java
- com.yu.score.GraduateStudent
-com/yu/uipratice/PraticeActionListener.java
- com.yu.uipratice.PraticeActionListener
-com/yu/ui/GuessFrame.java
- com.yu.ui.GuessFrame
- com.yu.ui.GuessFrame$1
 com/yu/uipratice/WinPratice.java
  com.yu.uipratice.WinPratice
  com.yu.uipratice.WinPratice$1
  com.yu.uipratice.WinPratice$2
-com/yu/order/Order.java
- com.yu.order.Order
+com/yu/sale/MyInterface.java
+ com.yu.sale.MyInterface
+com/yu/order/HiLifeDelivery.java
+ com.yu.order.HiLifeDelivery
+com/yu/order/Seven11Delivery.java
+ com.yu.order.Seven11Delivery
+com/yu/order/ShopeeDelivery.java
+ com.yu.order.ShopeeDelivery
+com/yu/order/FamilyDelivery.java
+ com.yu.order.FamilyDelivery
+com/yu/order/Delivery.java
+ com.yu.order.Delivery
 com/yu/order/OrderRunner.java
  com.yu.order.OrderRunner
-com/yu/score/ScoringFile.java
- com.yu.score.ScoringFile
+com/yu/order/Order.java
+ com.yu.order.Order

@@ -8,12 +8,12 @@ public class Order {
     public Order(int amount, Delivery delivery) {
         this.amount = amount;
         this.delivery = delivery;
-
+        int total= 0;
     }
 
     public int total() {
 
-            return (amount + shipFeed);
+    return (amount+ delivery.price);
 
 
     }
